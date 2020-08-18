@@ -30,7 +30,7 @@ class Result {
                                     j=j-1;
                                 break;
               case "UP" :       if(i-1>=0)
-                                    i=1-1;
+                                    i=i-1;
                                 break;
               case "DOWN" :     if(i+1<matrixSize)
                                     i=i+1;
